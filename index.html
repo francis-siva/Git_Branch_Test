@@ -8,6 +8,14 @@
         <style>
             * { color: darkgreen; }
 
+            li {
+                list-style-type: none;
+                display: block;
+                width: 500px;
+            }
+
+            .addition_task { background-color: orangered; }
+
             code {
                 border: solid darkgreen 1px;
                 border-radius: 2px;
@@ -25,6 +33,7 @@
             <li>Some changes on this new branch</li>
             <li>Commit the works (test)</li>
             <li>Push by a new remote branch for test_f's branch</li>
+            <li class="addition_task">Addition task => Make a pull request</li>
             <li>Merge test_f's branch advance commit in master branch</li>
             <li>Push in master</li>
             <li><source>Then we go with <code>git branch -d</code> to delete [test_f] branch</li>
